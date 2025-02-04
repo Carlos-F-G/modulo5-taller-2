@@ -1,3 +1,5 @@
+github de escri
+
 # Hospital Nueva Vida - Proyecto ReactJS
 
 Para esta evaluación modeulo 4 taller 3, seguimos trabajando en el proyecto Hospital Nueva Vida, desarrollado con ReactJS. Este simula el funcionamiento básico de un sistema de gestión hospitalaria. Incluye un listado dinámico de doctores con filtro por especialidad, una lista de servicios destacados, y un formulario interactivo para agendar citas con validaciones. Además, se implementaron componentes reutilizables, una interfaz profesional y responsiva, y una gestión de estado eficiente con Context API.
