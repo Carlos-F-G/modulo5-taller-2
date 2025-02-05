@@ -1,6 +1,6 @@
-# Hospital Web - Proyecto Fullstack
+#Seguridad en la Web del Hospital
 
-Este es un proyecto Fullstack para la administración de un hospital. Implementa autenticación de usuarios con JWT, manejo de sesiones y un panel de control protegido. Se construyó utilizando tecnologías modernas tanto en el backend como en el frontend.
+Este es un proyecto para la administración de un hospital. Implementa autenticación de usuarios con JWT, manejo de sesiones y un panel de control protegido. Se construyó utilizando tecnologías modernas tanto en el backend como en el frontend.
 
 ---
 
