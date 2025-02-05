@@ -1,45 +1,71 @@
-github de escri
+# Hospital Web - Proyecto Fullstack
 
-# Hospital Nueva Vida - Proyecto ReactJS
+Este es un proyecto Fullstack para la administración de un hospital. Implementa autenticación de usuarios con JWT, manejo de sesiones y un panel de control protegido. Se construyó utilizando tecnologías modernas tanto en el backend como en el frontend.
 
-Para esta evaluación modeulo 4 taller 3, seguimos trabajando en el proyecto Hospital Nueva Vida, desarrollado con ReactJS. Este simula el funcionamiento básico de un sistema de gestión hospitalaria. Incluye un listado dinámico de doctores con filtro por especialidad, una lista de servicios destacados, y un formulario interactivo para agendar citas con validaciones. Además, se implementaron componentes reutilizables, una interfaz profesional y responsiva, y una gestión de estado eficiente con Context API.
+---
+
+## Tecnologías Utilizadas
+
+### Frontend (React + Vite)
+
+- React.js
+- React Router DOM (para navegación)
+- Context API para gestión de estado
+- Fetch API / Axios para consumo del backend
+- Diseño con CSS y estilos personalizados
+
+### Backend (Node.js + Express)
+
+- Node.js y Express.js
+- JWT (Json Web Token) para autenticación
+- Bcrypt.js para encriptación de contraseñas
+- Helmet y CORS para seguridad
+- Dotenv para configuración de variables de entorno
+
+### Base de Datos
+
+- Simulación de usuarios en memoria (JSON)
+
+---
 
 ## Funcionalidades Implementadas
 
-1. **Ruteo y Vistas Principales**
+- Autenticación de Usuarios: Se usa JWT para proteger rutas y verificar identidad.
+- Rutas Protegidas: Solo los usuarios autenticados pueden acceder al dashboard.
+- Interfaz Simple y Funcional: Permite iniciar sesión y ver el panel de control.
+- Servidor Express: Maneja peticiones HTTP para login y acceso seguro.
+- Conexión Frontend - Backend: Comunicación fluida entre cliente y servidor.
 
-   - Home: Muestra servicios destacados.
-   - Equipo Médico: Lista de doctores con filtro por especialidad.
-   - Citas: Formulario para agendar citas y lista de citas agendadas.
+---
 
-2. **Gestión de Estado Global**
+## Cómo Ejecutar el Proyecto
 
-   - Uso de Context API para manejar:
-     - Lista de servicios.
-     - Lista de doctores.
-     - Citas agendadas.
+### Clonar el Repositorio
 
-3. **Componentes Dinámicos**
+```bash
+ git clone https://github.com/tu-repositorio/hospital-web.git
+```
 
-   - ServiceList: Renderiza servicios desde el contexto.
-   - DoctorList: Filtra y muestra la lista de doctores.
-   - AppointmentForm: Formulario para agendar citas con validaciones.
-   - AppointmentList: Muestra las citas agendadas.
+### Instalar Dependencias
 
-4. **Validaciones y Optimización**
+```bash
+ cd hospital-web
+ npm install
+```
 
-   - Validación de props con PropTypes.
-   - Manejo de fechas válidas en el formulario de citas.
-   - Optimización del DOM Virtual con React.Fragment.
-   - Uso de React Profiler para análisis de rendimiento.
+### Iniciar el Backend
 
-5. \*\* Tecnologías Utilizadas
+```bash
+ cd backend
+ node server.js
+```
 
-- React
-- React Router DOM
-- Context API
-- Material-UI
-- PropTypes
-- Vite
+### Iniciar el Frontend
 
-\*\*Carlos Farias Galdames
+```bash
+ cd frontend
+ npm run dev
+```
+
+---
+Carlos Farias Galdames
